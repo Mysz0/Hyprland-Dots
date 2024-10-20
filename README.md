@@ -40,7 +40,7 @@
 
 <h2 align="center">📸 Screenshots</h2>
 <p>
-  You can check out some screenshots of the setup <a href="https://github.com/Mysz0/Hyprland-Dots/Screenshots">here</a>.
+  You can check out some screenshots of the setup <a href="https://github.com/Mysz0/Hyprland-Dots/wiki/Screenshots">here</a>.
 </p>
 
 <h2 align="center">💻 Keybinds</h2>
@@ -50,4 +50,4 @@
 <p>If you run into any issues, check out the <a href="https://github.com/yourusername/Hyprland-Dots/wiki/FAQ">FAQ</a> or open an issue on the <a href="https://github.com/Mysz0/Hyprland-Dots/discussions">discussions page</a>.</p>
 
 <h2 align="center">💖 Support</h2>
-<p>If you find this project helpful, consider giving it a star ⭐ on GitHub, or you can <a href="https://ko-fi.com/yourkofi">buy me a coffee</a>!</p>
+<p>If you find this project helpful, consider giving it a star ⭐ on GitHub</a>!</p>
