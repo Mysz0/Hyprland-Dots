@@ -2,8 +2,7 @@
 Hyprland dots that I use
 
 
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +15,7 @@ Hyprland dots that I use
     </p>
     <p>
         <img src="./screenshot.png" alt="Screenshot of Hyprland-Dots">
-    </p>
+    
     
     <h2>✨ Features</h2>
     <ul>
@@ -51,7 +50,7 @@ Hyprland dots that I use
         </li>
         <li>
             <strong>Backup existing config:</strong>
-            <pre><code>mv ~/.config/hypr ~/.config/hypr.bak
+            <pre><code>mv ~/.config/hypr ~/.config/hypr.bak</pre>
 mv ~/.config/waybar ~/.config/waybar.bak
 mv ~/.config/wofi ~/.config/wofi.bak</code></pre>
         </li>
@@ -148,5 +147,4 @@ mv ~/.config/wofi ~/.config/wofi.bak</code></pre>
 
     <p>Enjoy your new Hyprland setup! ✨ Feel free to reach out if you have any questions or run into any issues!</p>
 
-</body>
-</html>
+
