@@ -7,7 +7,6 @@
     <li><strong>Hyprpaper</strong>: Dynamic wallpapers tailored to match your desktop aesthetics.</li>
     <li><strong>Performance Optimizations</strong>: Lightweight and fast, tailored for modern Wayland workflows.</li>
     <li><strong>Theming</strong>: Easily customizable themes, from colors to icons and beyond.</li>
-    <li><strong>Multi-Monitor Support</strong>: Ready for multiple displays with easy configuration.</li>
 </ul>
 
 <h2 align="center">🚀 Quick Start</h2>
@@ -31,12 +30,8 @@
         <pre><code>git clone https://github.com/Mysz0/Hyprland-Dots.git</code></pre>
     </li>
     <li>
-        <strong>Backup existing config:</strong>
-        <pre><code>mv ~/.config/hypr ~/.config/hypr.bak</code></pre>
-    </li>
-    <li>
         <strong>Run the setup script:</strong>
-        <pre><code>chmod +x setup.sh && ./setup.sh</code></pre>
+        <pre><code>chmod +x setup.sh && ./setup.sh</code></pre><p>All of your old configurations will be saved as .old so for example <code>~/.config/hypr.old</code> when running <code>setup.sh</code>. This ensures you can easily revert to your previous setup if needed.</p>
     </li>
 </ol>
 
@@ -52,7 +47,7 @@
 <p>For the default keybindings, please refer to the <a href="https://github.com/yourusername/Hyprland-Dots/wiki/Keybinds">keybinds documentation</a>.</p>
 
 <h2 align="center">📖 FAQ & Troubleshooting</h2>
-<p>If you run into any issues, check out the <a href="https://github.com/yourusername/Hyprland-Dots/wiki/FAQ">FAQ</a> or open an issue on the <a href="https://github.com/yourusername/Hyprland-Dots/discussions">discussions page</a>.</p>
+<p>If you run into any issues, check out the <a href="https://github.com/yourusername/Hyprland-Dots/wiki/FAQ">FAQ</a> or open an issue on the <a href="https://github.com/Mysz0/Hyprland-Dots/discussions">discussions page</a>.</p>
 
 <h2 align="center">💖 Support</h2>
 <p>If you find this project helpful, consider giving it a star ⭐ on GitHub, or you can <a href="https://ko-fi.com/yourkofi">buy me a coffee</a>!</p>
