@@ -57,7 +57,7 @@ WEATHER_CODES = {
 
 data = {}
 
-city = "Jarosław"
+city = "London"
 
 weather = requests.get("https://wttr.in/Jaros%C5%82aw?format=j1").json()
 
