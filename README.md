@@ -21,7 +21,7 @@
     <li><strong>Waybar</strong>: A customizable status bar for Wayland.</li>
     <li><strong>Wofi</strong>: A simple application launcher for Wayland.</li>
     <li><strong>Hyprpaper</strong>: Wallpaper utility for Hyprland.</li>
-    <li>Other utilities: <code>kitty</code>, <code>neofetch</code>, <code>hyprland</code>, etc.</li>
+    <li>Other utilities: <code>kitty</code>, <code>neofetch</code>, <code>hyprlock</code>, etc.</li>
 </ul>
 
 <h3>Installation</h3>
