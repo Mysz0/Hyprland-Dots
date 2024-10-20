@@ -21,14 +21,14 @@
     <li><strong>Waybar</strong>: A customizable status bar for Wayland.</li>
     <li><strong>Wofi</strong>: A simple application launcher for Wayland.</li>
     <li><strong>Hyprpaper</strong>: Wallpaper utility for Hyprland.</li>
-    <li>Other utilities: <code>kitty</code>, <code>neofetch</code>, <code>picom</code>, etc.</li>
+    <li>Other utilities: <code>kitty</code>, <code>neofetch</code>, <code>hyprland</code>, etc.</li>
 </ul>
 
 <h3>Installation</h3>
 <ol>
     <li>
         <strong>Clone the repository:</strong>
-        <pre><code>git clone https://github.com/Mysz0/Hyprland-Dots.git ~/Hyprland-Dots</code></pre>
+        <pre><code>git clone https://github.com/Mysz0/Hyprland-Dots.git</code></pre>
     </li>
     <li>
         <strong>Backup existing config:</strong>
@@ -45,7 +45,7 @@
 
 <h2 align="center">📸 Screenshots</h2>
 <p>
-  You can check out some screenshots of the setup <a href="https://github.com/yourusername/Hyprland-Dots/wiki/Screenshots">here</a>.
+  You can check out some screenshots of the setup <a href="https://github.com/Mysz0/Hyprland-Dots/Screenshots">here</a>.
 </p>
 
 <h2 align="center">💻 Keybinds</h2>
