@@ -36,7 +36,7 @@
     </li>
     <li>
         <strong>Run the setup script:</strong>
-        <pre><code>cd ~/Hyprland-Dots && chmod +x setup.sh && ./setup.sh</code></pre>
+        <pre><code>chmod +x setup.sh && ./setup.sh</code></pre>
     </li>
 </ol>
 
