@@ -19,7 +19,7 @@
     <li><strong>Status bar</strong>: Waybar</li>
     <li><strong>Launcher</strong>: Wofi</li>
     <li><strong>Wallpaper</strong>: Swww</li>
-    <l1><strong>Terminal</strong>: Kitty</l1>
+    <li><strong>Terminal</strong>: Kitty</li>
     <li><strong>File manager</strong>: Thunar</li>
     <li><strong>Notifiaction daemon</strong>: Swaync</li>
     <li><strong>For discord and spotify use</strong>: Vencord and Spicetify
