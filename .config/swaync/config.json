@@ -1,0 +1,96 @@
+{
+  "$schema": "/etc/xdg/swaync/configSchema.json",
+  "positionX": "right",
+  "positionY": "top",
+  "layer": "top",
+  "control-center-layer": "top",
+  "layer-shell": true,
+  "cssPriority": "user",
+  "control-center-margin-top": 0,
+  "control-center-margin-bottom": 0,
+  "control-center-margin-right": 0,
+  "control-center-margin-left": 0,
+  "notification-2fa-action": true,
+  "notification-inline-replies": false,
+  "notification-icon-size": 64,
+  "notification-body-image-height": 100,
+  "notification-body-image-width": 150,
+  "timeout": 10,
+  "timeout-low": 5,
+  "timeout-critical": 0,
+  "fit-to-screen": true,
+  "relative-timestamps": true,
+  "control-center-width": 450,
+  "control-center-height": 600,
+  "notification-window-width": 400,
+  "keyboard-shortcuts": true,
+  "image-visibility": "when-available",
+  "transition-time": 200,
+  "hide-on-clear": true,
+  "hide-on-action": true,
+  "script-fail-notify": true,
+
+  "widgets": [
+    "inhibitors",
+    "title",
+    "dnd",
+    "mpris",
+    "notifications",
+    "volume",
+    "backlight"
+  ],
+  "widget-config": {
+    "inhibitors": {
+      "text": "Inhibitors",
+      "button-text": "Clear All",
+      "clear-all-button": true
+    },
+    "title": {
+      "text": "Notifications",
+      "clear-all-button": true,
+      "button-text": "Clear All"
+    },
+    "dnd": {
+      "text": "Do Not Disturb"
+    },
+    "label": {
+      "max-lines": 5,
+      "text": "Label Text"
+    },
+    "mpris": {
+      "image-size": 64,
+      "image-radius": 12
+    },
+    "volume": {
+      "text": "Volume",
+      "slider": true,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "action-increase": "sh ~/.config/swaync/volume.sh increase",
+      "action-decrease": "sh ~/.config/swaync/volume.sh decrease",
+      "action-mute": "sh ~/.config/swaync/volume.sh mute"
+    },
+    "backlight": {
+      "device": "nvidia_0",
+      "text": "Brightness",
+      "slider": true,
+      "min": 5,
+      "max": 100,
+      "step": 10,
+      "action-increase": "brightnessctl set 1%+",
+      "action-decrease": "brightnessctl set 1%-"
+    },
+    "buttons-grid": {
+      "actions": [
+        {
+          "label": "直",
+          "type": "toggle",
+          "active": true,
+          "command": "sh -c '[[ $SWAYNC_TOGGLE_STATE == true ]] && nmcli radio wifi on || nmcli radio wifi off'",
+          "update_command": "sh -c '[[ $(nmcli radio wifi) == \"enabled\" ]] && echo true || echo false'"
+        }
+      ]
+    }
+  }
+}

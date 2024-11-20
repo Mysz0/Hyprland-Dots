@@ -1,0 +1,61 @@
+@import url("/home/username/.cache/wal/wofi");
+@define-color bg @background;
+
+* {
+  font-family: "JetBrains Mono";
+  font-size: 15px;
+  color: @color1;
+}
+
+window {
+  border: 1px solid @color2;
+  background: @bg;
+  border-radius: 10px;
+}
+
+#input {
+  margin: 1.5em;
+  margin-bottom: 0em;
+  padding: 1em;
+  border: none;
+  font-weight: bold;
+  background: rgba(51, 51, 51, 0.8);
+  color: @color15;
+  border-radius: 10px;
+}
+
+#input:focus {
+  border: 1px solid @color15;
+}
+
+#inner-box {
+  margin: 1.5em;
+  margin-top: 0.5em;
+}
+
+#outer-box {
+  margin-bottom: 0.5em;
+}
+
+#scroll {
+  margin-top: 5px;
+  /* display: none; */
+}
+
+#text {
+  margin-left: 0.5em;
+  color: @color15;
+}
+
+#text:selected {
+  color: @color15;
+}
+
+#entry {
+  margin-top: 0.5em;
+  border-radius: 15px;
+}
+
+#entry:selected {
+  background: linear-gradient(90deg, @color9 0%, @color10 80%);
+}
