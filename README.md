@@ -4,9 +4,8 @@
     <li><strong>Minimalistic UI</strong>: A sleek and clutter-free desktop experience.</li>
     <li><strong>Custom Waybar</strong>: A well-organized and informative status bar.</li>
     <li><strong>Wofi Launcher</strong>: A fast, customizable application launcher.</li>
-    <li><strong>Hyprpaper</strong>: Dynamic wallpapers tailored to match your desktop aesthetics.</li>
-    <li><strong>Performance Optimizations</strong>: Lightweight and fast, tailored for modern Wayland workflows.</li>
-    <li><strong>Theming</strong>: Easily customizable themes, from colors to icons and beyond.</li>
+    <li><strong>Swww</strong>: Dynamic wallpapers tailored to match your desktop aesthetics.</li>
+    <li><strong>Theming</strong>: Easily customizable themes, using pywal.</li>
 </ul>
 
 <h2 align="center">🚀 Quick Start</h2>
@@ -21,8 +20,10 @@
     <li><strong>Launcher</strong>: Wofi</li>
     <li><strong>Wallpaper</strong>: Swww</li>
     <l1><strong>Terminal</strong>: Kitty</l1>
+    <li><strong>File manager</strong>: Thunar</li>
     <li><strong>Notifiaction daemon</strong>: Swaync</li>
-    <li>Other utilities: <code>Wlogout</code>, <code>Hyprlock</code>, <code>Hypridle</code>, <code>Pywal</code></li>
+    <li><strong>For discord and spotify use</strong>: Vencord and Spicetify
+    <li>Other utilities: <code>Wlogout</code>, <code>Hyprlock</code>, <code>Hypridle</code>, <code>Pywal</code>, <code>Btop</code>, <code>Cava</code></li>
 </ul>
 
 <h3>Installation</h3>
@@ -38,7 +39,7 @@
 </ol>
 
 <h3>Post Installation</h3>
-<p>Once installed, you can customize your settings by editing the configuration files found in <code>~/.config/hypr/</code>. For Waybar and Wofi settings, navigate to their respective directories within <code>~/.config</code>.</p>
+<p>Once installed, you can customize your settings by editing the configuration files found in <code>~/.config/hypr/</code>. For Waybar and others settings, navigate to their respective directories within <code>~/.config</code>.</p>
 
 <h2 align="center">📸 Screenshots</h2>
 <p>
