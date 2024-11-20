@@ -16,18 +16,20 @@
     Before diving in, make sure you have the following installed:
 </p>
 <ul>
-    <li><strong>Hyprland</strong>: A dynamic tiling window manager for Wayland.</li>
-    <li><strong>Waybar</strong>: A customizable status bar for Wayland.</li>
-    <li><strong>Wofi</strong>: A simple application launcher for Wayland.</li>
-    <li><strong>Hyprpaper</strong>: Wallpaper utility for Hyprland.</li>
-    <li>Other utilities: <code>kitty</code>, <code>neofetch</code>, <code>hyprlock</code>, etc.</li>
+    <li><strong>WM</strong>: Hyprland</li>
+    <li><strong>Status bar</strong>: Waybar</li>
+    <li><strong>Launcher</strong>: Wofi</li>
+    <li><strong>Wallpaper</strong>: Swww</li>
+    <l1><strong>Terminal</strong>: Kitty</l1>
+    <li><strong>Notifiaction daemon</strong>: Swaync</li>
+    <li>Other utilities: <code>Wlogout</code>, <code>Hyprlock</code>, <code>Hypridle</code>, <code>Pywal</code></li>
 </ul>
 
 <h3>Installation</h3>
 <ol>
     <li>
         <strong>Clone the repository:</strong>
-        <pre><code>git clone https://github.com/Mysz0/Hyprland-Dots.git</code></pre>
+        <pre><code>git clone https://github.com/Mysz0/Hyprland-Dots</code></pre>
     </li>
     <li>
         <strong>Run the setup script:</strong>
