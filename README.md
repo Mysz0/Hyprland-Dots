@@ -1,7 +1,7 @@
 <h2 align="center">✨ Features</h2>
 
 <ul>
-    <li><strong>Minimalistic UI</strong>: A sleek and clutter-free desktop experience.</li>
+    <li><strong>Minimalistic UI</strong>: A sleek and anime-free desktop experience.</li>
     <li><strong>Custom Waybar</strong>: A well-organized and informative status bar.</li>
     <li><strong>Wofi Launcher</strong>: A fast, customizable application launcher.</li>
     <li><strong>Swww</strong>: Dynamic wallpapers tailored to match your desktop aesthetics.</li>
@@ -23,7 +23,7 @@
     <li><strong>File manager</strong>: Thunar</li>
     <li><strong>Notifiaction daemon</strong>: Swaync</li>
     <li><strong>For discord and spotify use</strong>: Vencord and Spicetify
-    <li>Other utilities: <code>Wlogout</code>, <code>Hyprlock</code>, <code>Hypridle</code>, <code>Pywal</code>, <code>Btop</code>, <code>Cava</code></li>
+    <li>Other utilities: <code>Wlogout</code>, <code>Hyprlock</code>, <code>Hypridle</code>, <code>Zsh</code>, <code>Nvim</code> <code>Pywal</code>, <code>Btop</code>, <code>Cava</code></li>
 </ul>
 
 <h3>Installation</h3>
@@ -40,9 +40,8 @@
 
 <h3>Post Installation</h3>
 <p>Once installed, you can customize your settings by editing the configuration files found in <code>~/.config/hypr/</code>. For Waybar and others settings, navigate to their respective directories within <code>~/.config</code>.</p><br>
-<p>Note: Make sure to change the user in Wofi and Waybar config style files to make the styling work</p>
+<p>Note: Make sure to change the user in Wofi and Waybar config style files to make the dynamic styling work.</p>
 
-<h3>✏️To-do list:</h3>
 <h3>✏️ To-Do List:</h3>
 <ul>
     <li><strong>Better theming</strong>: Create more visually cohesive themes for programs using pywal</li>
@@ -55,6 +54,7 @@
     </li>
     <li><strong>Theme Swaync</strong>: Create matching themes for the notification daemon to blend with the desktop environment.</li>
     <li><strong>Theme Wlogout</strong>: Customize the logout screen for a consistent appearance across the system using pywal.</li>
+    <li><strong>Fix cava gradient not showing up</strong></li>
 </ul>
 
 
