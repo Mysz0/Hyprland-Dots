@@ -1,12 +1,10 @@
 <h2 align="center">📸 Screenshots</h2>
 <p>
-    <img src="https://raw.githubusercontent.com/Mysz0/screenshots/main/hyprdots/screenshot3.png" alt="Screenshot" style="max-width: 100%; height: auto; border-radius: 10px;">
-    <img src="https://raw.githubusercontent.com/Mysz0/screenshots/main/hyprdots/screenshot4.png" alt="Screenshot" style="max-width: 100%; height: auto; border-radius: 10px;">
-    <img src="https://raw.githubusercontent.com/Mysz0/screenshots/main/hyprdots/screenshot1.png" alt="Screenshot" style="max-width: 100%; height: auto; border-radius: 10px;">
-    <img src="https://raw.githubusercontent.com/Mysz0/screenshots/main/hyprdots/screenshot2.png" alt="Screenshot" style="max-width: 100%; height: auto; border-radius: 10px;">
+    <img src="https://raw.githubusercontent.com/Mysz0/screenshots/main/hyprdots/screenshot3.png" alt="Screenshot" style="border-radius: 30%">
+    <img src="https://raw.githubusercontent.com/Mysz0/screenshots/main/hyprdots/screenshot4.png" alt="Screenshot" style="border-radius: 30%">
+    <img src="https://raw.githubusercontent.com/Mysz0/screenshots/main/hyprdots/screenshot1.png" alt="Screenshot" style="border-radius: 30%">
+    <img src="https://raw.githubusercontent.com/Mysz0/screenshots/main/hyprdots/screenshot2.png" alt="Screenshot" style="border-radius: 30%">
 </p>
-
-
 
 <h2 align="center">✨ Features</h2>
 
@@ -66,7 +64,6 @@
     <li><strong>Theme Wlogout</strong>: Customize the logout screen for a consistent appearance across the system using pywal.</li>
     <li><strong>Fix cava gradient not showing up</strong></li>
 </ul>
-
 
 <h2 align="center">📸 Screenshots</h2>
 <p>
