@@ -5,7 +5,7 @@ SOURCE_DIR=~/Hyprland-Dots/.config/
 DEST_DIR=~/.config/
 
 # List of directories to handle
-DIRS=("btop" "hypr" "neofetch" "tmux" "wlogout" "cava" "kitty" "nvim" "waybar" "wofi")
+DIRS=("btop" "cava" "hypr" "kitty" "neofetch" "nvim" "spicetify" "swaync" "Thunar" "Vencord" "wal" "waybar" "waypaper" "wlogout" "wofi")
 
 # Loop through each directory
 for dir in "${DIRS[@]}"; do
