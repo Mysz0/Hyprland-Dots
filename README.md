@@ -67,11 +67,6 @@
     <li><strong>Fix cava gradient not showing up</strong></li>
 </ul>
 
-<h2 align="center">📸 Screenshots</h2>
-<p>
-  You can check out some screenshots of the setup <a href="https://github.com/Mysz0/Hyprland-Dots/wiki/Screenshots">here</a>.
-</p>
-
 <h2 align="center">💻 Keybinds</h2>
 <p>For the default keybindings, please refer to the <a href="https://github.com/Mysz0/Hyprland-Dots/wiki/Keybinds">keybinds documentation</a>.</p>
 
