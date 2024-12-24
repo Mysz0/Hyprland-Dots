@@ -31,7 +31,7 @@
     <li><strong>File manager</strong>: Thunar</li>
     <li><strong>Notifiaction daemon</strong>: Swaync</li>
     <li><strong>For discord and spotify use</strong>: Vencord and Spicetify
-    <li>Other utilities: <code>Wlogout</code>, <code>Hyprlock</code>, <code>Hypridle</code>, <code>Zsh</code>, <code>Nvim</code> <code>Pywal</code>, <code>Btop</code>, <code>Cava</code></li>
+    <li>Other utilities: <code>Wlogout</code>, <code>Hyprlock</code>, <code>Hypridle</code>, <code>Zsh</code>, <code>Nvim</code>, <code>Pywal</code>, <code>Btop</code>, <code>Cava</code></li>
 </ul>
 
 <h3>Installation</h3>
@@ -57,6 +57,8 @@
         <ul>
             <li>Automatically check for dependencies and prompt to install missing programs.</li>
         </ul>
+    </li>
+    <li><strong>Add other programs to the script</strong>
     </li>
     <li><strong>List of programs that are needed</strong>
     </li>
