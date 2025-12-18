@@ -1,31 +1,54 @@
 #!/bin/bash
 
-# Set the source and destination directories
-SOURCE_DIR=~/Hyprland-Dots/.config/
-DEST_DIR=~/.config/
 
-# List of directories to handle
-DIRS=("btop" "cava" "hypr" "kitty" "neofetch" "nvim" "spicetify" "swaync" "Thunar" "Vencord" "wal" "waybar" "waypaper" "wlogout" "wofi")
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+DOTFILES_DIR="$SCRIPT_DIR/.config"
+CONFIG_DIR="$HOME/.config"
 
-# Loop through each directory
-for dir in "${DIRS[@]}"; do
-    # If the destination directory exists
-    if [ -d "$DEST_DIR$dir" ]; then
-        # Rename the old directory to <dir>.old
-        echo "Renaming $DEST_DIR$dir to $DEST_DIR$dir.old"
-        mv "$DEST_DIR$dir" "$DEST_DIR$dir.old"
+
+dotfolders=(
+    "Vencord"
+    "btop"
+    "cava"
+    "hypr"
+    "kitty"
+    "neofetch"
+    "nvim"
+    "spicetify"
+    "swaync"
+    "wal"
+    "waybar"
+    "waypaper"
+    "wlogout"
+    "wofi"
+)
+
+echo "Starting dotfile deployment (copy mode)..."
+echo "Source: $DOTFILES_DIR"
+echo "Target: $CONFIG_DIR"
+
+for folder in "${dotfolders[@]}"; do
+    SOURCE_PATH="$DOTFILES_DIR/$folder"
+    TARGET_PATH="$CONFIG_DIR/$folder"
+
+    if [ -d "$SOURCE_PATH" ]; then
+
+        # Backup existing directory
+        if [ -d "$TARGET_PATH" ]; then
+            echo "Backing up existing $folder → $folder.bak"
+            mv "$TARGET_PATH" "$TARGET_PATH.bak"
+        fi
+
+        # Ensure clean destination
+        rm -rf "$TARGET_PATH"
+
+        # Copy from repo into ~/.config
+        echo "Copying $folder..."
+        cp -r "$SOURCE_PATH" "$TARGET_PATH"
+
     else
-        echo "$DEST_DIR$dir does not exist. Creating a new folder."
+        echo "Skipping $folder: Not found in repo"
     fi
-
-    # Create a new directory and copy the config files from the source
-    mkdir -p "$DEST_DIR$dir"
-    echo "Copying files from $SOURCE_DIR$dir to $DEST_DIR$dir"
-    cp -r "$SOURCE_DIR$dir"/* "$DEST_DIR$dir/"
-
-    echo "$dir setup completed."
-    echo "---------------------"
 done
 
-echo "All directories have been processed."
-
+echo "Done! All configs have been backed up (if needed) and copied."
